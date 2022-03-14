@@ -5,6 +5,8 @@
 void main(){
 	int gd = DETECT ,gm;
 initgraph(&gd,&gm,"c:\\turboc3\\bgi");
-	outtext("VISHAL");
+	settextstyle(1,HORIZ_DIR,15);
+	outtext("JOHN");
+
 getch();
 }
